@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.profile-photo {
+    float: left;
+    margin-right: 20px;
+}
+
+/* navbar baru */
+nav{
+  height: 80px;
+  width: 100%;
+  background:#055aaf;
+}
+nav .logo{
+  font-size: 17px;
+  line-height: 80px;
+  font-weight: bold;
+  color: white;
+  padding: 0 50px;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  font-size: 17px;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 17px;
+  border-radius: 3px;
+}
+a.active,a:hover{
+  transition: 0.5s;
+}
+.btn{
+  float: right;
+  font-size: 30px;
+  color: white;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  nav .logo{
+      font-size: 17px;
+      padding-left: 50px;
+  }
+  nav ul li a{
+      font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .btn{
+      display: block;
+  }
+  ul{
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      background: #5c91c6;
+      transition: all .5s;
+  }
+  #check:checked ~ ul{
+      left: 0;
+  }
+  nav ul li{
+      margin: 50px 0;
+      line-height: 30px;
+      display: block;
+  }
+  nav ul li a{
+      font-size: 20px;
+  }
+  a.active,a:hover{
+      color: white;
+      background: rgba(0, 0, 0, 0.6);
+  }
+}
+
+
+ 
+
+    
+    .header{
+      background-color:red;
+      height: 50px;
+      text-align: center;
+      font-size: 50px;
+      padding: 50px;
+    }
+    .konten{
+      margin: auto;
+      display: block;
+  }
+ 
+    
+  
+  h2{
+  text-align: center;
+}
+.bungkus{
+
+  padding: 5px;
+}
+
+.bio{
+  padding: 5px;
+}
+
+h4{
+  padding: 5px;
+}
+
+table{
+  padding: 5px;
+}
+
+table tr th, table tr td{
+  border: 1px solid black;
+}
+
+table tr th{
+padding: 10px;
+}
+table tr td{
+padding: 10px;
+text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+

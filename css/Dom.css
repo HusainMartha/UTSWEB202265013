@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+/* navbar baru */
+nav{
+  height: 80px;
+  width: 100%;
+  background:#055aaf;
+}
+nav .logo{
+  font-size: 17px;
+  line-height: 80px;
+  font-weight: bold;
+  color: white;
+  padding: 0 50px;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  font-size: 17px;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 17px;
+  border-radius: 3px;
+}
+a.active,a:hover{
+  transition: 0.5s;
+}
+.btn{
+  float: right;
+  font-size: 30px;
+  color: white;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952px){
+  nav .logo{
+      font-size: 17px;
+      padding-left: 50px;
+  }
+  nav ul li a{
+      font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .btn{
+      display: block;
+  }
+  ul{
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      background: #5c91c6;
+      transition: all .5s;
+  }
+  #check:checked ~ ul{
+      left: 0;
+  }
+  nav ul li{
+      margin: 50px 0;
+      line-height: 30px;
+      display: block;
+  }
+  nav ul li a{
+      font-size: 20px;
+  }
+  a.active,a:hover{
+      color: white;
+      background: rgba(0, 0, 0, 0.6);
+  }
+}
+
+
+  
+  .kos {
+    display: block;
+    background-color: red;  
+    height: 50px;
+    font-size: 50px;
+    padding: 50px;
+  }
+  table {
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    top: 300px;
+    left: 375px;
+  }
+  table tr,
+  table tr td {
+    border-bottom: groove;
+    padding: 10px;
+    width: 1000px;
+    text-align: center;
+  }
+  .teks {
+    top: 140px;
+    color:#000000
+  }
+  #textInput {
+    top: 150px;
+    background-color: white; /* Warna latar belakang */
+    padding: 5px; /* Ruang di dalam input teks */
+    margin-left: 50px;
+    border: 1px solid black; /* Border dengan ketebalan 2px, solid, dan warna abu-abu muda */
+    border-radius: 5px; /* Sudut membulat */
+    width: 200px; 
+
+  }
+  #btn {
+    background-color:#0000FF;
+    color: linen;
+    margin-left: 50px;
+  }
+  #btnA {
+    color: #0000FF;
+    margin-left: 50px;
+  }
+  #btnB {
+    color: #0000FF;
+    margin-left: 50px;
+  }
+  #footerrow {
+    display: none; /* Ubah display menjadi "block" untuk menampilkan elemen */
+    text-align: center;
+    background-color: #055aaf;
+    position: fixed;
+    height: 100px;
+    z-index: 1;
+    bottom: 0; /* Atur posisi ke paling bawah dengan bottom: 0; */
+    width: 100%; /* Lebarkan elemen ke seluruh lebar halaman */
+  }
+  
+
+
+
+
+
+
